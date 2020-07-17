@@ -1,4 +1,4 @@
-# MVC 与 MVVM
+# MVC
 ## MVC
 
 <p align="center">
