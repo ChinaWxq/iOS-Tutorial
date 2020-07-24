@@ -1,6 +1,7 @@
 ## 介绍
 
 iOS-Tutorial是一个基于 `Objective-C`、`Swift`语言的iOS开发教程系列，包含iOS设计模式、主流框架等知识点。
+
 该项目正在持续更新。
 
 <p align="center">
@@ -25,7 +26,7 @@ iOS-Tutorial是一个基于 `Objective-C`、`Swift`语言的iOS开发教程系�
 
 - [ReactiveCocoa](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/ReactiveCocoa) - ReactiveCocoa函数式响应式编程框架
 
-- [SwiftUI](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/SwiftUI)
+- [SwiftUI](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/SwiftUI) - 面向未来的声明式语法编程框架
 
 ## License
 

@@ -54,3 +54,11 @@ struct ContentView: View {
 }
 ```
 返回类型在编译时并不能被知道，所以是一个非法的不透明类型。
+
+### SwiftUI与MVVM
+
+**MVVM原则**
+在 MVVM 架构中 View 和 Model 不能直接通信，必须通过 ViewModel。ViewModel 是 MVVM 的核心，它通常要实现一个观察者，当 Model 数据发生变化时 ViewModel 能够监听并通知到对应的 View 做 UI 更新，反之当用户操作 View 时 ViewModel 也能获取到 UI 的变化并通知 Model 数据做出对应的更新操作。这就是 MVVM 中数据的双向绑定。
+SwiftUI+Combine框架原生就是MVVM架构，很容易支持数据的双向绑定。
+
+![](/resources/SwiftUI_MVVM.png)
