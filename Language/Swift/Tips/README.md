@@ -1,6 +1,6 @@
-# 柯里化（Currying）
+# Tips
 
-## Introduction
+## 柯里化
 
 柯里化是函数式编程的概念，将多参数函数转化为单参数的函数方法。函数式编程的思想贯穿于Swift中。从简单的例子了解概念：
 
@@ -87,3 +87,24 @@ class ViewController: UIViewController {
     }
 }
 ```
+
+## 将protocol的方法声明为mutating
+
+protocol不仅可以被class类型实现，也适用于struct和enum。我们给别人写协议的时候尽量使用mutating来修饰，是为了该方法在修改struct和enum的变量，如果你没在协议方法里写mutating方法，别人用struct或enum就无法修改自己的变量。
+
+```swift
+protocol Vehicle {
+    var numberOfWheels: Int {get}
+    var color: UIColor {get set}
+    mutating func changeColor()
+}
+
+struct MyCar: Vehicle {
+    let numberOfWheels: Int = 4
+    var color: UIColor = .black
+    mutating func changeColor() {
+        color = .red
+    }
+}
+```
+
