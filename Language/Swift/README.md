@@ -8,4 +8,4 @@
 
 [Swift中的集合类型](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/Language/Swift/%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B)
 
-[Tips]()
+[Tips](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/Language/Swift/Tips)
