@@ -1,5 +1,0 @@
-# PencilKit
-
-## 介绍
-PencilKit可以轻松快速地将手写内容整合到你的iOS和macOS App中。PencilKit为iOS应用程序提供了一个绘图环境，该环境可以从Apple Pencil或用户的手指输入，并将其转为高质量的图像。
-可以在iOS中使用`PKCanvasView`对象捕获内容，以视图的形式整合到已经存在的视图层级。支持低延迟捕获来自Apple Pencil或者手指的触摸，然后将`PKDrawingReference`对象作为结果返回，可以将内容保存在你的应用程序中，还支持将绘制的图像内容转化为图像并在iOS或macOS上显示。

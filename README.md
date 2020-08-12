@@ -33,9 +33,8 @@ iOS-Tutorial是一个基于 `Objective-C`、`Swift`语言的iOS开发教程系�
 
 - [ReactiveCocoa](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/ReactiveCocoa) - ReactiveCocoa函数式响应式编程框架。
 
-- [SwiftUI](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/SwiftUI) - 面向未来的声明式语法编程框架。
+- [SwiftUI](https://github.com/ChinaWxq/SwiftUI-Tutorial) - 面向未来的声明式语法编程框架。
 
-- [PencilKit](https://github.com/ChinaWxq/iOS-Tutorial/tree/master/PencilKit) - 低延迟Apple Pencil手写框架。
 
 ## 编程语言
 
